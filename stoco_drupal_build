@@ -1,0 +1,58 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+    echo "Usage: stoco_drupal_build path/to/installdir"
+    exit 1
+fi
+
+scriptpath=`pwd`
+installpath=$1
+
+# Check for drush.
+if ! which -s drush; then
+    echo "You need to have drush in your PATH. Aborting."
+    exit 1
+fi
+
+# Check the current directory.
+if [ ! -f "stoco_drupal_6.make" ]; then
+  echo "The file stoco_drupal_6.make is missing. Make sure you run this script from "
+  echo "the stoco_drupal_build directory. Aborting."
+  exit 1
+fi
+
+# Check the install path.
+if [ -d "$installpath" ]; then
+  echo "The directory $installpath already exists, aborting."
+  exit 1
+fi
+
+mkdir $1
+
+if [ ! -d "$installpath" ]; then
+  echo "Could not create directory $installpath, aborting."
+  exit 1
+fi
+
+# Move into the destination directory.
+cd $1
+
+# Install the Drupal installation.
+drush -y make $scriptpath/stoco_drupal_6.make
+
+# Install translations.
+if [ -d "$scriptpath/translations" ]; then
+  transl=$scriptpath/translations/*.tgz
+  for f in $transl
+  do
+    echo "Installing translation $f..."
+    tar -xzf $f
+  done
+fi
+
+# Copy i18n-ascii.txt to Pathauto's module directory.
+echo "Installing i18n-ascii.txt..."
+cp $scriptpath/i18n-ascii.txt sites/all/modules/pathauto/
+
+echo "Done."
