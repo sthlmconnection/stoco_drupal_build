@@ -48,7 +48,7 @@ projects[] = boxes
 projects[] = emfield
 
 ; themes
-projects[] = zen
+projects[zen][version] = 1
 
 ; libraries
 
