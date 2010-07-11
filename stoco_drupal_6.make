@@ -30,6 +30,7 @@ projects[] = transliteration
 projects[] = date
 projects[] = views
 projects[] = devel
+projects[] = devel_themer
 projects[] = link
 projects[] = extlink
 projects[] = markdown
