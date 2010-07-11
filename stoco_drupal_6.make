@@ -37,7 +37,7 @@ projects[] = wysiwyg
 projects[] = features
 projects[] = jquery_ui
 projects[] = rules
-projects[] = jquery_update
+projects[jquery_update][version] = 2
 projects[] = boxes
 projects[] = emfield
 
