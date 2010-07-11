@@ -2,6 +2,7 @@ core = 6.x
 projects[] = drupal
 
 ; contrib modules
+projects[] = admin
 projects[] = admin_menu
 projects[] = filefield
 projects[] = mollom
