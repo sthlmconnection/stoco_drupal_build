@@ -10,7 +10,7 @@ scriptpath=`pwd`
 installpath=$1
 
 # Check for drush.
-if ! which -s drush; then
+if ! which drush >/dev/null; then
     echo "You need to have drush in your PATH. Aborting."
     exit 1
 fi
