@@ -42,6 +42,7 @@ projects[] = rules
 projects[jquery_update][version] = 2
 projects[] = boxes
 projects[] = emfield
+projects[] = persistent_login
 
 ; themes
 projects[zen][version] = 1
