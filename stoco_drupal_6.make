@@ -17,6 +17,7 @@ projects[jquery_update][version] = 2
 projects[jquery_ui][version] = 1
 projects[path_redirect][version] = 1
 projects[pathauto][version] = 1
+projects[globalredirect][version] = 1
 projects[token][version] = 1
 projects[extlink][version] = 1
 
