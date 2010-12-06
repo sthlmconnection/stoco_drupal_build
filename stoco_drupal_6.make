@@ -51,7 +51,7 @@ projects[google_analytics][version] = 2
 ; Contrib modules - language related
 projects[i18n][version] = 1
 projects[l10n_client][version] = 1
-projects[transliteration][version] = 2
+projects[transliteration][version] = 3
 
 ; Themes
 projects[zen][version] = 1
