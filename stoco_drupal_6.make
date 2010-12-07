@@ -6,7 +6,6 @@ projects[ctools][version] = 1
 projects[views][version] = 2
 projects[features][version] = 1
 projects[context][version] = 2
-projects[spaces][version] = 3
 projects[strongarm][version] = 2
 projects[boxes][version] = 1
 projects[flag][version] = 1
