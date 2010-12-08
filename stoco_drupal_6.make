@@ -1,6 +1,8 @@
 core = 6.x
 projects[] = drupal
 
+api = 2
+
 ; Contrib modules - site building
 projects[ctools][version] = 1
 projects[views][version] = 2
