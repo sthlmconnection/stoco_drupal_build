@@ -54,6 +54,6 @@ fi
 
 # Copy i18n-ascii.txt to Pathauto's module directory.
 echo "Installing i18n-ascii.txt..."
-cp $scriptpath/i18n-ascii.txt sites/all/modules/pathauto/
+cp $scriptpath/i18n-ascii.txt sites/all/
 
 echo "Done."
