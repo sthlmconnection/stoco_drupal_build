@@ -52,6 +52,7 @@ projects[google_analytics][version] = 3
 projects[i18n][version] = 1
 projects[l10n_client][version] = 1
 projects[transliteration][version] = 3
+projects[l10n_update][version] = 1
 
 ; Themes
 projects[zen][version] = 2
