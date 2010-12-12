@@ -56,6 +56,8 @@ projects[l10n_update][version] = 1
 
 ; Themes
 projects[zen][version] = 2
+projects[zen][tao] = 3
+projects[zen][rubik] = 3
 
 ; Libraries
 libraries[jquery.ui][download][type] = "get"
