@@ -36,6 +36,10 @@ projects[date][version] = 2
 projects[auto_nodetitle][version] = 1
 projects[nodewords][version] = 1
 
+; Contrib modules - presentation related
+projects[semanticviews][version] = 1
+projects[semantic_cck][version] = 1
+
 ; Contrib modules - administrative/user interaction
 projects[admin][version] = 2
 projects[wysiwyg][version] = 2
