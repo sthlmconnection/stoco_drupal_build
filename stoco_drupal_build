@@ -56,4 +56,9 @@ fi
 echo "Installing i18n-ascii.txt..."
 cp $scriptpath/i18n-ascii.txt sites/all/
 
+# Move the HTML Purifier library to the correct location.
+echo "Moving HTML Purifier..."
+mv sites/all/modules/htmlpurifier/htmlpurifier/library sites/all/modules/htmlpurifier/
+rm -r sites/all/modules/htmlpurifier/htmlpurifier
+
 echo "Done."
