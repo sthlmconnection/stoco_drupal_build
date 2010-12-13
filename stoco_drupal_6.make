@@ -13,14 +13,10 @@ projects[boxes][version] = 1
 projects[flag][version] = 1
 projects[rules][version] = 1
 projects[devel][version] = 1
-projects[devel_themer][version] = 1
-projects[jquery_update][version] = 2
-projects[jquery_ui][version] = 1
 projects[path_redirect][version] = 1
 projects[pathauto][version] = 1
 projects[globalredirect][version] = 1
 projects[token][version] = 1
-projects[extlink][version] = 1
 
 ; Contrib modules - content related
 projects[cck][version] = 2
@@ -39,6 +35,10 @@ projects[nodewords][version] = 1
 ; Contrib modules - presentation related
 projects[semanticviews][version] = 1
 projects[semantic_cck][version] = 1
+projects[devel_themer][version] = 1
+projects[jquery_update][version] = 2
+projects[jquery_ui][version] = 1
+projects[extlink][version] = 1
 
 ; Contrib modules - administrative/user interaction
 projects[admin][version] = 2
