@@ -39,6 +39,7 @@ projects[devel_themer][version] = 1
 projects[jquery_update][version] = 2
 projects[jquery_ui][version] = 1
 projects[extlink][version] = 1
+projects[colorbox][version] = 1
 
 ; Contrib modules - administrative/user interaction
 projects[admin][version] = 2
@@ -71,3 +72,7 @@ libraries[jquery.ui][destination] = modules/jquery_ui
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://switch.dl.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip"
 libraries[tinymce][destination] = libraries
+
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][destination] = libraries
