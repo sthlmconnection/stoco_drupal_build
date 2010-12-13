@@ -31,6 +31,7 @@ projects[imagecache][version] = 2
 projects[date][version] = 2
 projects[auto_nodetitle][version] = 1
 projects[nodewords][version] = 1
+projects[htmlpurifier][version] = 2
 
 ; Contrib modules - presentation related
 projects[semanticviews][version] = 1
@@ -76,3 +77,7 @@ libraries[tinymce][destination] = libraries
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
 libraries[colorbox][destination] = libraries
+
+libraries[htmlpurifier][download][type] = "get"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.2.0.tar.gz"
+libraries[htmlpurifier][destination] = modules/htmlpurifier
