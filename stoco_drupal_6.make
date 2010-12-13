@@ -39,7 +39,7 @@ projects[nodewords][version] = 1
 ; Contrib modules - administrative/user interaction
 projects[admin][version] = 2
 projects[admin_menu][version] = 1
-projects[wysiwyg][version] = 2
+projects[wysiwyg][version] = 2.x-dev
 projects[markdown][version] = 1
 projects[advanced_help][version] = 1
 projects[spamspan][version] = 1
