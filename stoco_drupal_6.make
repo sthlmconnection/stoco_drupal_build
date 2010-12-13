@@ -65,5 +65,5 @@ libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery.ui][destination] = modules/jquery_ui
 
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://kent.dl.sourceforge.net/project/tinymce/TinyMCE/3.3.5.1/tinymce_3_3_9_2.zip"
+libraries[tinymce][download][url] = "http://switch.dl.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip"
 libraries[tinymce][destination] = libraries
