@@ -42,16 +42,6 @@ cd $1
 # Install the Drupal installation.
 drush -y make $scriptpath/stoco_drupal_6.make
 
-# Install translations.
-if [ -d "$scriptpath/translations" ]; then
-  transl=$scriptpath/translations/*.tgz
-  for f in $transl
-  do
-    echo "Installing translation $f..."
-    tar -xzf $f
-  done
-fi
-
 # Copy i18n-ascii.txt to Pathauto's module directory.
 echo "Installing i18n-ascii.txt..."
 cp $scriptpath/i18n-ascii.txt sites/all/
