@@ -49,6 +49,7 @@ projects[markdown][version] = 1
 projects[advanced_help][version] = 1
 projects[spamspan][version] = 1
 projects[persistent_login][version] = 1
+projects[vertical_tabs][version] = 1
 
 ; Contrib modules - external services
 projects[mollom][version] = 1
