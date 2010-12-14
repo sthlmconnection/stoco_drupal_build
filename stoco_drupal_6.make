@@ -65,7 +65,7 @@ projects[transliteration][version] = 3
 projects[l10n_update][version] = 1
 
 ; Themes
-projects[zen][version] = 2
+projects[zen][version] = 2.x-dev
 projects[tao][version] = 3
 projects[rubik][version] = 3
 
