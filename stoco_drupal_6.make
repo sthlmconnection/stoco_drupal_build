@@ -17,6 +17,7 @@ projects[path_redirect][version] = 1
 projects[pathauto][version] = 1
 projects[globalredirect][version] = 1
 projects[token][version] = 1
+projects[local_menu][version] = 1
 
 ; Contrib modules - content related
 projects[cck][version] = 2
