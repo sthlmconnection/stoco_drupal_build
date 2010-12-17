@@ -31,7 +31,6 @@ projects[media_vimeo][version] = 1
 projects[imageapi][version] = 1
 projects[imagefield][version] = 3
 projects[imagecache][version] = 2
-projects[imagecache][version] = 1
 projects[date][version] = 2
 projects[auto_nodetitle][version] = 1
 projects[nodewords][version] = 1
