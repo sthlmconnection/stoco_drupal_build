@@ -47,7 +47,7 @@ projects[persistent_login][version] = 1
 
 ; Contrib modules - external services
 projects[mollom][version] = 1
-projects[google_analytics][version] = 2
+projects[google_analytics][version] = 3
 
 ; Contrib modules - language related
 projects[i18n][version] = 1
