@@ -28,19 +28,16 @@ if [ -d "$installpath" ]; then
   exit 1
 fi
 
-# Create install directory.
-mkdir $1
+# Install the Drupal installation.
+drush -y make stoco_drupal_6.make $installpath
 
 if [ ! -d "$installpath" ]; then
-  echo "Could not create directory $installpath, aborting."
+  echo "Drush make to $installpath failed, aborting."
   exit 1
 fi
 
 # Move into the destination directory.
-cd $1
-
-# Install the Drupal installation.
-drush -y make $scriptpath/stoco_drupal_6.make
+cd $installpath
 
 # Copy i18n-ascii.txt to Pathauto's module directory.
 echo "Installing i18n-ascii.txt..."
