@@ -80,9 +80,9 @@ libraries[tinymce][download][url] = "http://switch.dl.sourceforge.net/project/ti
 libraries[tinymce][destination] = libraries
 
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][destination] = libraries
 
 libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0.tar.gz"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
 libraries[htmlpurifier][destination] = modules/htmlpurifier
