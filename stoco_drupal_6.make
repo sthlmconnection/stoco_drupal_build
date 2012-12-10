@@ -1,7 +1,10 @@
 core = 6.x
-projects[] = drupal
-
 api = 2
+
+; Pressflow as core
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "https://github.com/pressflow/6/tarball/master"
 
 ; Contrib modules - site building
 projects[ctools][version] = 1
