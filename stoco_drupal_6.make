@@ -4,7 +4,7 @@ api = 2
 ; Pressflow as core
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
+projects[pressflow][download][url] = "https://github.com/pressflow/6/tarball/master"
 
 ; Contrib modules - site building
 projects[ctools][version] = 1
